@@ -143,15 +143,3 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-
-/* Scroll Review Animation */
-const sr = ScrollReview({
-  distance: '60px',
-  duration: 2800,
-  // reset: 'true'
-})
-
-sr.reveal(`home__data`,{
-  origin: 'top',
-  interval: 100,
-})
